@@ -75,6 +75,8 @@ h1 {
     border: none;
     cursor: pointer;
     margin-right: 10px;
+    text-decoration: none;  
+    display: inline-block; 
 }
 
 .learn-btn {

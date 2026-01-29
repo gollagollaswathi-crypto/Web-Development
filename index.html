@@ -24,8 +24,26 @@
     <a href="https://github.com/gollagollaswathi-crypto/Web-Development.git" target="_blank" class="github-btn">
         <i class="fa-brands fa-github"></i> View on GitHub
     </a>
-    <button class="learn-btn">Learn more</button>
+     <button class="learn-btn" onclick="showInfo()">Learn more</button>
 
+     <div id="info" style="display:none; margin-top:20px; color: var(--subtext); max-width:600px; margin-left:auto; margin-right:auto; font-size:16px; line-height:1.5;">
+        <p>
+             Replicode is an interactive platform where you can practice coding by building real-world projects.
+             It helps you improve your programming skills step-by-step, providing project examples, guided instructions, 
+             and tips for learning by doing. Whether you are a beginner or an experienced coder, Replicode allows you to replicate, experiment, and learn effectively.
+        </p>
+    </div>
+
+<script>
+function showInfo() {
+    const info = document.getElementById("info");
+    if (info.style.display === "none") {
+        info.style.display = "block";
+    } else {
+        info.style.display = "none";
+    }
+}
+</script>
     <div class="cards">
         <div class="card">
             <div class="icon yellow">💡</div>
